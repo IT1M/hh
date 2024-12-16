@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright AI - ذكاء مشرق</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+             <nav>
+              <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                 <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+             </ul>
+            </nav>
+            
+        </header>
+
+        <main id="home">
+            <div class="main-content">
+              <div id="scene-container"></div>
+                <h1 class="statement"> <strong> نطور الذكاء، نوسع الإمكانيات </strong></h1>
+            </div>
+        </main>
+
+        <section id="services" class="services-section">
+            <h2>خدماتنا</h2>
+            <div class="models-container">
+                <!-- خدمة تحليل البيانات -->
+              <div class="model-card" data-model="dataAnalysis">
+                  <h3>تحليل البيانات 📊</h3>
+                  <div class="model-placeholder" id="dataAnalysis-model"></div>
+                   <p>نقدم خدمات تحليل البيانات المتقدمة لاستخلاص رؤى قيمة من بياناتك، مما يساعدك في اتخاذ قرارات مستنيرة لتحسين أداء عملك.</p>
+              </div>
+              <!-- خدمة الاستشارات -->
+                <div class="model-card" data-model="consulting">
+                    <h3>استشارات 👨‍💼</h3>
+                    <div class="model-placeholder" id="consulting-model"></div>
+                      <p>نقدم استشارات متخصصة في مجال الذكاء الاصطناعي لمساعدتك في فهم أحدث التقنيات وكيفية تطبيقها لتحقيق أهدافك.</p>
+                </div>
+                <!-- خدمة الأتمتة -->
+                <div class="model-card" data-model="automation">
+                    <h3>أتمتة ⚙️</h3>
+                    <div class="model-placeholder" id="automation-model"></div>
+                      <p>نقوم بتطوير حلول أتمتة العمليات لزيادة الكفاءة وتقليل التكاليف، مما يتيح لك التركيز على الأنشطة الأساسية لعملك.</p>
+                </div>
+                 <!-- خدمة المكتبات الرقمية -->
+                <div class="model-card" data-model="digitalLibrary">
+                     <h3>المكتبات الرقمية 📚</h3>
+                    <div class="model-placeholder" id="digitalLibrary-model"></div>
+                    <p>نقدم حلول متكاملة لإنشاء وإدارة المكتبات الرقمية، مما يسهل الوصول إلى المعرفة والمصادر التعليمية.</p>
+                </div>
+            </div>
+        </section>
+
+      <section id="about" class="about-section">
+         <h2>من نحن</h2>
+         <div class="about-content">
+                <p>
+                نحن فريق متخصص في تطوير حلول الذكاء الاصطناعي المبتكرة. نهدف إلى توسيع حدود الإمكانيات من خلال تقديم حلول ذكية ومتكاملة. نؤمن بأن التكنولوجيا قادرة على إحداث تغيير إيجابي في العالم، ونسعى جاهدين لتحقيق هذا الهدف.
+                </p>
+              
+            </div>
+    </section>
+       
+    <footer id="contact">
+         <div class="contact-content">
+            <div class="contact-info">
+                <h3>تواصل معنا</h3>
+                 <p><strong>العنوان:</strong> الرياض، المملكة العربية السعودية</p>
+                <p><strong>البريد الإلكتروني:</strong> info@brightai.com</p>
+                <p><strong>رقم الهاتف:</strong> +966 555 5555</p>
+                
+                
+            </div>
+            <div class="social-media">
+                <h3>تابعنا</h3>
+                   <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
